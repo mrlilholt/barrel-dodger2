@@ -75,6 +75,6 @@ e e e e e e e e
 e e e e e e e e 
 3 e e e e e e 3 
 `, Math.randomRange(-100, -80), 0)
-    info.changeScoreBy(1)
+    info.changeScoreBy(5)
     tiles.placeOnTile(projectile, tiles.getTileLocation(9, 5))
 })
