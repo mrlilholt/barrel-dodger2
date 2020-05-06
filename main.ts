@@ -68,10 +68,10 @@ game.onUpdateInterval(1500, function () {
     projectile = sprites.createProjectileFromSide(img`
 3 e e e e e e 3 
 e e e e e e e e 
-3 3 3 3 3 3 3 3 
+5 5 5 5 5 5 5 5 
 e e e e e e e e 
 e e e e e e e e 
-3 3 3 3 3 3 3 3 
+5 5 5 5 5 5 5 5 
 e e e e e e e e 
 3 e e e e e e 3 
 `, Math.randomRange(-100, -80), 0)
