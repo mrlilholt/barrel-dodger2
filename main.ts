@@ -64,6 +64,7 @@ tiles.setTilemap(tiles.createTilemap(
             [myTiles.tile0,sprites.builtin.brick,sprites.builtin.oceanDepths0,sprites.builtin.oceanDepths3],
             TileScale.Sixteen
         ))
+scene.setBackgroundColor(3)
 game.onUpdateInterval(1500, function () {
     projectile = sprites.createProjectileFromSide(img`
 3 e e e e e e 3 
