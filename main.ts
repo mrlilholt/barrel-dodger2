@@ -69,13 +69,13 @@ game.onUpdateInterval(1500, function () {
     projectile = sprites.createProjectileFromSide(img`
 3 e e e e e e 3 
 e e e e e e e e 
-7 7 7 7 7 7 7 7 
+c c c c c c c c 
 e e e e e e e e 
 e e e e e e e e 
-7 7 7 7 7 7 7 7 
+c c c c c c c c 
 e e e e e e e e 
 3 e e e e e e 3 
 `, Math.randomRange(-100, -80), 0)
-    info.changeScoreBy(5)
+    info.changeScoreBy(10)
     tiles.placeOnTile(projectile, tiles.getTileLocation(9, 5))
 })
